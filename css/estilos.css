@@ -22,12 +22,26 @@ a{
 .redes{
     display: flex;
     color: beige;
-    background-color: rgb(141, 4, 4);
+    background-color: rgb(48, 44, 44);
     justify-content: space-evenly;
     align-items: center;
 }
-.logoInstagram{
+.logoRedes{
     width: 50px;
     height: 50px;
 }
-
+.logoRiver{
+    width: 150px;
+    height: 150px;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.h1{
+    margin-top: 10px;
+}
+.carrousel{
+    font-size: 400px;
+}

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>River Plate</title>
 </head>
+
 <body>
-    <h1>CLUB ATLETICO RIVER PLATE</h1>
-    <header>
-        <nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-danger p-4">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="./pages/historia.html">Historia</a></li>
@@ -18,24 +21,73 @@
                 <li><a href="./pages/plantel.html">Plantel</a></li>
                 <li><a href="./pages/museo.html">Museo</a></li>
             </ul>
-        </nav>
-       
-        
-    </header>
-    <main >
-        
-        
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-danger">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <section class="titulo">
+        <a href="#"><img class="logoRiver" src="./img/logoriver.png" alt="inicio"></a>
+        <h1>CLUB ATLETICO RIVER PLATE</h1>
+    </section>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner sg">
+                <div class="carousel-item active">
+                    <img src="./img/plantel-2022.jpg" class="d-block w-100" alt="plantel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/masmonumental.jpg" class="d-block w-100" alt="monumental">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/cuerpoTecnico.jpg" class="d-block w-100" alt="cuerpo-tecnico">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
     </main>
     <ul class="redes">
         <li><a href="https://www.instagram.com/riverplate/?next=%2F" target="_blank" class="redes">
-            <img class="logoInstagram" src="./img/logoinstagram.jpg" alt="instagram"></a>
+                <img class="logoRedes" src="./img/instagram.png" alt="instagram"></a>
         </li>
-        <li><a href="https://twitter.com/RiverPlate" target="_blank" class="redes"><!-- ICONO TWITTER --> TWITTER OFICIAL</a>
+        <li><a href="https://twitter.com/RiverPlate" target="_blank" class="redes"><img class="logoRedes"
+                    src="./img/logoTwitter.png" alt="twitter"></a>
         </li>
-        <li><a href="https://www.facebook.com/riverplateoficial" target="_blank" class="redes"><!-- ICONO FACEBOOK --> FACEBOOK OFICIAL</a></li>
+        <li><a href="https://www.facebook.com/riverplateoficial" target="_blank" class="redes"><img class="logoRedes"
+                    src="./img/facebook.png" alt="facebook"></a></li>
     </ul>
+
     <footer>
-       
-    </footer>        
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
