@@ -4,60 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>River Plate</title>
+    <title>Museo - River Plate</title>
 </head>
 <body>
-    <h1>CLUB ATLETICO RIVER PLATE</h1>
-    <header>
-        <nav>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="colorNavbar p-4">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./historia.html">Historia</a></li>
-                <li><a href="./institucion.html">Institucion</a></li>
-                <li><a href="./plantel.html">Plantel</a></li>
+                <li><a href="../pages/historia.html">Historia</a></li>
+                <li><a href="../pages/institucion.html">Institucion</a></li>
+                <li><a href="../pages/plantel.html">Plantel</a></li>
                 <li><a href="#">Museo</a></li>
             </ul>
-        </nav>
-        <form action="">
-            <input type="search">
-        </form>
-    </header>
-    <main class="flex-container formularios grilla">
-        <section class="border nombre" >
-            <h1 class="border contactanos">Para mas informacion contactanos</h1>
-            <form action="">
-                <label for="nombreApellido">Nombre y Apellido</label>
-                <input type="text" id="nombreApellido" name="nombre-apellido">
-            </form>
-        </section>
-        <section class="border celu">
-            <h3>Numero de Celular</h3>
-            <form action="">
-                <label for="numCelular">Numero de Celular</label>
-                <input type="tel" id="numCelular" placeholder="+5492974123456" name="celular">
-            </form>
-        </section>
-        <section class="border describe">
-            <h3>¿Que necesita saber?</h3>
-            <form action="">
-                <label for="comentarios"></label>
-                <textarea name="comentarios" id="comentarios" cols="100" rows="10"></textarea>
-            </form>
-        </section>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark colorNav">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <section class="titulo">
+        <a href="../index.html"><img class="logoRiver" src="../img/logoriver.png" alt="inicio"></a>
+        <h1>CLUB ATLETICO RIVER PLATE</h1>
+    </section>
+    <main>
 
     </main>
-    <ul class="redes">
-        <li><a href="https://www.instagram.com/riverplate/?next=%2F" target="_blank" class="redes">
-            <img class="logoInstagram" src="../img/logoinstagram.jpg" alt="instagram"></a>
-        </li>
-        <li><a href="https://twitter.com/RiverPlate" target="_blank" class="redes"><!-- ICONO TWITTER --> TWITTER OFICIAL</a>
-        </li>
-        <li><a href="https://www.facebook.com/riverplateoficial" target="_blank" class="redes"><!-- ICONO FACEBOOK --> FACEBOOK OFICIAL</a></li>
-    </ul>
-
+        <ul class="redes">
+            <li><a href="https://www.instagram.com/riverplate/?next=%2F" target="_blank" class="redes">
+                    <img class="logoRedes" src="../img/instagram.png" alt="instagram"></a>
+            </li>
+            <li><a href="https://twitter.com/RiverPlate" target="_blank" class="redes"><img class="logoRedes"
+                        src="../img/logoTwitter.png" alt="twitter"></a>
+            </li>
+            <li><a href="https://www.facebook.com/riverplateoficial" target="_blank" class="redes"><img class="logoRedes"
+                        src="../img/facebook.png" alt="facebook"></a></li>
+        </ul>
     <footer>
 
-    </footer>        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>    
 </body>
 </html>

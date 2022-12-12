@@ -1,10 +1,12 @@
 
 
 ul li{
-    border: 3px black solid;
+    border: groove rgb(255, 0, 8) 3px;
     color: black;
+    background: rgb(255,169,169);
+    background: linear-gradient(90deg, rgba(255,169,169,1) 21%, rgba(219,57,57,1) 57%, rgba(154,0,0,1) 98%);
     list-style-type: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 ul{
     display: flex;
@@ -44,4 +46,22 @@ a{
 }
 .carrousel{
     font-size: 400px;
+}
+
+ul li:hover{
+transform: scale(1.5);
+}
+
+ul li{
+    transition-property: all;
+    transition-duration: 3s;
+}
+.colorNav{
+    background: rgb(255,169,169);
+    background: linear-gradient(90deg, rgba(255,169,169,1) 21%, rgba(219,57,57,1) 57%, rgba(154,0,0,1) 98%);
+}
+.colorNavbar{
+    background: rgb(255,169,169);
+    background: linear-gradient(90deg, rgba(255,169,169,1) 21%, rgba(219,57,57,1) 57%, rgba(154,0,0,1) 98%);
+
 }
