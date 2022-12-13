@@ -1,0 +1,26 @@
+.redes{
+    display: flex;
+    color: beige;
+    background-color: rgb(48, 44, 44);
+    justify-content: center;
+    flex-direction: column;
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-evenly;
+        li{
+            border: groove black 3px;
+            color: black;
+            background: rgb(255,169,169);
+            background: linear-gradient(90deg, rgba(255,169,169,1) 21%, rgba(219,57,57,1) 57%, rgba(154,0,0,1) 98%);
+            list-style-type: none;
+            font-size: 30px;
+        }
+}
+}
+.logoRedes{
+    width: 50px;
+    height: 50px;
+}

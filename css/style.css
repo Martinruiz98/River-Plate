@@ -1,0 +1,89 @@
+@import url("https://fonts.google.com/specimen/Poppins?preview.text=Considerando%20que%20el%20reconocimiento%20de%20la%20dignidad%20inherente&preview.text_type=custom");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+ul li {
+  border: groove black 3px;
+  color: black;
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.redes {
+  display: flex;
+  color: beige;
+  background-color: rgb(48, 44, 44);
+  justify-content: center;
+  flex-direction: column;
+}
+.redes ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+.redes ul li {
+  border: groove black 3px;
+  color: black;
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.logoRedes {
+  width: 50px;
+  height: 50px;
+}
+
+.logoRiver {
+  width: 150px;
+  height: 150px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.h1 {
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li:hover {
+  transform: scale(1.5);
+}
+
+ul li {
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+.colorNav {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+}
+
+.colorNavbar {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+}/*# sourceMappingURL=style.css.map */
