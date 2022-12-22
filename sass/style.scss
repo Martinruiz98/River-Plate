@@ -1,7 +1,93 @@
-@import "generales" ;
-@import "fuentes" ;
-@import "redes" ;
-@import "titulo" ;
-@import "navbar" ;
-@import "historia" ;
-@import "variableglobal" ;
+@import url("https://fonts.google.com/specimen/Poppins?preview.text=Considerando%20que%20el%20reconocimiento%20de%20la%20dignidad%20inherente&preview.text_type=custom");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: white;
+}
+.separadorIzq{
+  background: rgb(154, 0, 0);
+
+}
+.separadorDer{
+  background: rgb(154, 0, 0);
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.redes {
+  display: flex;
+  color: beige;
+  background-color: rgb(48, 44, 44);
+  justify-content: center;
+  flex-direction: column;
+}
+.piePagina{
+    text-align: center;
+}
+.textoPie{
+    font-size: 10px;
+}
+
+
+
+.logoRedes {
+  width: 50px;
+  height: 50px;
+}
+
+.logoRiver {
+  width: 150px;
+  height: 150px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.h1 {
+  margin-top: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.colorNav {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+}
+
+.colorNavbar {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+}
+
+.historia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imgHistoria {
+  font-size: 50px;
+}/*# sourceMappingURL=style.css.map */
