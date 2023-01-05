@@ -13,33 +13,21 @@ ul li {
           text-decoration: white;
 }
 
-.separadorIzq {
-  background: rgb(154, 0, 0);
-}
-
-.separadorDer {
-  background: rgb(154, 0, 0);
-}
-
 .contenido {
   margin-left: 100px;
   margin-right: 100px;
 }
 
 footer {
+  background-color: black;
+}
+
+.redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   font-size: 20px;
-}
-
-.redes {
-  display: flex;
-  color: beige;
-  background-color: rgb(48, 44, 44);
-  justify-content: center;
-  flex-direction: column;
 }
 
 .piePagina {
