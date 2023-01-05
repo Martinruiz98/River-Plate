@@ -21,6 +21,11 @@ ul li {
   background: rgb(154, 0, 0);
 }
 
+.contenido {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 footer {
   display: flex;
   flex-direction: row;
