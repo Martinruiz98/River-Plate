@@ -1,0 +1,20 @@
+.historia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .museo{
+    background-image: url("../img/museoFondo.jpg");
+    background-size: 100%;
+  }
+  
+  .plantel{
+  background-color: black;
+  }
+  .deportes{
+    font-size: 35px;
+  }
+  .imgHistoria {
+    font-size: 50px;
+  }

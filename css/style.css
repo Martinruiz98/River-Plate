@@ -13,9 +13,58 @@ ul li {
           text-decoration: white;
 }
 
-.contenido {
-  margin-left: 100px;
-  margin-right: 100px;
+.colorNav {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+}
+
+.colorNavbar {
+  background: rgb(255, 169, 169);
+  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
+}
+
+.formulario {
+  margin: 20px;
+}
+
+.tituloForm {
+  font-size: 20px;
+}
+
+.inscribite {
+  font-size: 15px;
+  text-align: center;
+}
+
+.centrarFormulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.historia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.museo {
+  background-image: url("../img/museoFondo.jpg");
+  background-size: 100%;
+}
+
+.plantel {
+  background-color: black;
+}
+
+.deportes {
+  font-size: 35px;
+}
+
+.imgHistoria {
+  font-size: 50px;
 }
 
 footer {
@@ -48,6 +97,21 @@ footer {
   height: 150px;
 }
 
+.contenido {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.logoRedes {
+  width: 50px;
+  height: 50px;
+}
+
+.logoRiver {
+  width: 150px;
+  height: 150px;
+}
+
 .titulo {
   background-color: black;
   display: flex;
@@ -64,60 +128,4 @@ a {
   text-decoration: none;
 }
 
-.colorNav {
-  background: rgb(255, 169, 169);
-  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
-}
-
-.colorNavbar {
-  background: rgb(255, 169, 169);
-  background: linear-gradient(90deg, rgb(255, 169, 169) 21%, rgb(219, 57, 57) 57%, rgb(154, 0, 0) 98%);
-}
-
-.historia {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.museo {
-  background-image: url("../img/museoFondo.jpg");
-  background-size: 100%;
-}
-
-.plantel {
-  background-color: black;
-}
-
-.deportes {
-  font-size: 35px;
-}
-
-.formulario {
-  margin: 20px;
-}
-
-.tituloForm {
-  font-size: 20px;
-}
-
-.inscribite {
-  font-size: 15px;
-  text-align: center;
-}
-
-.centrarFormulario {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-.button {
-  align-content: center;
-}
-
-.imgHistoria {
-  font-size: 50px;
-} /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
