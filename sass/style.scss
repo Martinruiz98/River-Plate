@@ -54,7 +54,7 @@ footer{
   justify-content: center;
 }
 
-.h1 {
+.h1{
   margin-top: 10px;
 }
 
@@ -88,6 +88,31 @@ a {
 
 .plantel{
 background-color: black;
+}
+.deportes{
+  font-size: 35px;
+}
+
+.formulario{
+  margin: 20px;
+}
+
+.tituloForm{
+  font-size: 20px;
+}
+
+.inscribite{
+  font-size: 15px;
+  text-align: center;
+}
+.centrarFormulario{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.button{
+  align-content: center;
 }
 
 .imgHistoria {
